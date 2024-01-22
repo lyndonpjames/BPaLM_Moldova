@@ -12,4 +12,6 @@
 #    xi) .csv Model results for the base case (60 month horizon) -- 1,000 Probabilistic Sensitivity Analysis (PSA) iterations
 #    xii) .csv for Moldova WHO End of Treatment outcomes data 
 #    xiii) .txt for Moldova M. tuberculosis genomic sequencing data (secondary processing applied to previously published, publicly-available data, see paper for more details)
-#    xiv) .Rmd R code for postprocessing of the model results to produce tables and figures 
+      ## sex: 1 = female, 2 = male
+      ## all resistance: 0 = susceptible, 1 = resistant
+#    xiv) .Rmd R code for postprocessing of the model results to produce tables and figures. Takes as inputs above .csv files
